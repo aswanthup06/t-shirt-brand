@@ -1,16 +1,16 @@
 import React from 'react'
-import Navbar from '../../Components/Navbar'
+
 
 
 export default function Profile() {
   return (
 
-<div>
-
-<Navbar />
+<div className='min-h-[calc(100dvh-4rem-5rem)]'>
 
 
-    <div className='container mx-auto px-4 lg:px-24'>
+
+
+    <div className='container mx-auto px-4 lg:px-24 '>
         
         
         

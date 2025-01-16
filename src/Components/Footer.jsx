@@ -6,7 +6,7 @@ export default function Footer() {
 
    
     <div className='container mx-auto px-4 lg:px-24 mt-6'>
-<div className='flex justify-between h-14 items-center border-t'>
+<div className='flex justify-between h-14 items-center border-t text-slate-700/75'>
 
 <div>
     fasionfactory@gmail.com

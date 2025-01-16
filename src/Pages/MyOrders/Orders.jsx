@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Orders() {
   return (
-    <div className='container mx-auto px-4 lg:px-24'>
+    <div className='container mx-auto px-4 lg:px-24  min-h-[calc(100dvh-4rem-7rem)]'>
         
         <h1 className=' md:text-2xl  lg:text-3xl my-3 mt-8 font-semibold'>My Orders</h1>
         

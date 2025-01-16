@@ -28,7 +28,7 @@ export default function ProDetails() {
     <div>
 
 
-<Navbar />
+
 
 <div className='container mx-auto px-4 lg:px-24 mt-6'>
 
