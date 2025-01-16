@@ -3,9 +3,7 @@ import React from 'react'
 
 export default function Navbar() {
   return (
-    <div className='container mx-auto px-4 lg:px-24 flex justify-between h-14 items-center'>
-
-
+    <div className='container mx-auto px-4 lg:px-24 flex justify-between h-16 items-center'>
 <div>
     <h1 className='font-semibold text-xl'><span className='text-red-600'>FASION</span> FACTORY</h1>
 </div>

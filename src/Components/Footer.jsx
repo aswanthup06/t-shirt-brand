@@ -12,7 +12,7 @@ export default function Footer() {
     fasionfactory@gmail.com
 </div>
 
-<div className='flex items-center gap-4'>
+<div className='flex items-center gap-2'>
     Follow Us:
 
   
