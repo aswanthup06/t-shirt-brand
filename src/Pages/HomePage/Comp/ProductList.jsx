@@ -87,7 +87,7 @@ export default function ProductList() {
     <div>
 
         
-<h1 className='container mx-auto px-4 lg:px-24 md:text-2xl  lg:text-3xl my-3 mt-8'>Our Latest Collections</h1>
+<h1 className='container mx-auto px-4 lg:px-24 md:text-2xl  lg:text-3xl my-3 mt-8 font-semibold'>Our Latest Collections</h1>
 
 <div className="grid gap-6 grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 container mx-auto px-4 lg:px-24">
       {products.map((product) => (
@@ -110,7 +110,7 @@ export default function ProductList() {
 </div>
             </div>
           </div>
-          <h1 className="mt-4 text-sm md:text-lg line-clamp-1">{product.name}</h1>
+          <h1 className="mt-2 text-sm md:text-lg line-clamp-1">{product.name}</h1>
           <h1 className="text-base md:text-xl font-semibold">₹{product.price}</h1>
         </div>
       ))}
