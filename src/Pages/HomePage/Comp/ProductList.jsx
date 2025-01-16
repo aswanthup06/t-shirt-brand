@@ -89,7 +89,7 @@ export default function ProductList() {
         
 <h1 className='container mx-auto px-4 lg:px-24 md:text-2xl  lg:text-3xl my-3 mt-8 font-semibold'>Our Latest Collections</h1>
 
-<div className="grid gap-6 grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 container mx-auto px-4 lg:px-24">
+<div className="grid gap-3 md:gap-3 lg:gap-6 grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 container mx-auto px-4 lg:px-24">
       {products.map((product) => (
         <div key={product.id}>
           <div className="h-48 md:h-72 overflow-hidden relative">
