@@ -40,7 +40,7 @@ export default function Profile() {
 
             <div className='border p-4 '>
             <div className='flex justify-between items-center'> 
-                <h1 className='font-semibold'>Profile</h1>
+                <h1 className='font-semibold'>Location</h1>
                 <button className='h-8 bg-green-600 text-white px-5 text-sm'>
                      Add
                 </button>
