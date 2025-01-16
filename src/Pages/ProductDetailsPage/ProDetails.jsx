@@ -57,14 +57,7 @@ src={imgs.img}
         <img  className='h-full w-full object-cover' src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" />
       
         <button className="absolute top-3 right-3 bg-white w-6 h-6 md:w-10 md:h-10 rounded-full flex items-center justify-center">
-            <div
-  className="w-3 h-3  md:w-4 md:h-4"
-  style={{
-    strokeWidth: '1.25', 
-  }}
->
-   <Heart size="100%" strokeWidth="inherit" />
-</div>
+        <i className="ri-heart-3-fill text-rose-700"></i>
 </button>
 
 

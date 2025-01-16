@@ -7,6 +7,8 @@ import Profile from './Pages/ProfilePage/Profile';
 import Orders from './Pages/MyOrders/Orders';
 import Navbar from './Components/Navbar';
 import Footer from './Components/Footer';
+import WishList from './Pages/WishList/WishList';
+import Cart from './Pages/CartPage/Cart';
 
 function App() {
   return (
@@ -17,6 +19,9 @@ function App() {
         <Route path="/product-details" element={<ProDetails />} />
         <Route path="/profile" element={<Profile />} />
         <Route path="/orders" element={<Orders />} />
+        <Route path="/wishlist" element={<WishList />} />
+        <Route path="/cart" element={<Cart />} />
+        
       </Routes>
       <Footer />
     </Router>
