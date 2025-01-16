@@ -89,7 +89,7 @@ export default function ProductList() {
         
 <h1 className='container mx-auto px-4 lg:px-24 md:text-2xl  lg:text-3xl my-3 mt-8'>Our Latest Collections</h1>
 
-<div className="grid gap-6 grid-cols-2 md:grid-cols-4 lg:grid-cols-5 container mx-auto px-4 lg:px-24">
+<div className="grid gap-6 grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 container mx-auto px-4 lg:px-24">
       {products.map((product) => (
         <div key={product.id}>
           <div className="h-48 md:h-72 overflow-hidden relative">
@@ -101,17 +101,17 @@ export default function ProductList() {
             />
             <div className="absolute top-3 right-3 bg-white w-6 h-6 md:w-9 md:h-9 rounded-full flex items-center justify-center">
             <div
-  className="w-2 h-2  md:w-4 md:h-4"
+  className="w-3 h-3  md:w-4 md:h-4"
   style={{
-    strokeWidth: '1.25', // Default strokeWidth
+    strokeWidth: '1.25', 
   }}
 >
   <Heart size="100%" strokeWidth="inherit" />
 </div>
             </div>
           </div>
-          <h1 className="mt-4 text-lg line-clamp-1">{product.name}</h1>
-          <h1 className="text-xl font-semibold">₹{product.price}</h1>
+          <h1 className="mt-4 text-sm md:text-lg line-clamp-1">{product.name}</h1>
+          <h1 className="text-base md:text-xl font-semibold">₹{product.price}</h1>
         </div>
       ))}
 
