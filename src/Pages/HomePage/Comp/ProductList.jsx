@@ -87,12 +87,12 @@ export default function ProductList() {
     <div>
 
         
-<h1 className='container mx-auto px-4 lg:px-24 text-3xl my-3 mt-8'>Our Latest Collections</h1>
+<h1 className='container mx-auto px-4 lg:px-24 md:text-2xl  lg:text-3xl my-3 mt-8'>Our Latest Collections</h1>
 
 <div className="grid gap-6 grid-cols-2 md:grid-cols-4 lg:grid-cols-5 container mx-auto px-4 lg:px-24">
       {products.map((product) => (
         <div key={product.id}>
-          <div className="h-72 overflow-hidden relative">
+          <div className="h-48 md:h-72 overflow-hidden relative">
             <img
               className="h-full w-full object-cover hover:scale-125 duration-500"
               src={product.img}
