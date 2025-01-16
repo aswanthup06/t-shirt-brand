@@ -99,8 +99,15 @@ export default function ProductList() {
               alt={product.name}
               onError={handleImageError}
             />
-            <div className="absolute top-3 right-3 bg-white w-9 h-9 rounded-full flex items-center justify-center">
-              <Heart size={20} strokeWidth={1.25} />
+            <div className="absolute top-3 right-3 bg-white w-6 h-6 md:w-9 md:h-9 rounded-full flex items-center justify-center">
+            <div
+  className="w-2 h-2  md:w-4 md:h-4"
+  style={{
+    strokeWidth: '1.25', // Default strokeWidth
+  }}
+>
+  <Heart size="100%" strokeWidth="inherit" />
+</div>
             </div>
           </div>
           <h1 className="mt-4 text-lg line-clamp-1">{product.name}</h1>
