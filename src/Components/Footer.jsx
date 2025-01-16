@@ -1,4 +1,5 @@
 import React from 'react'
+import { LogoInstagram } from '@carbon/icons-react';
 
 export default function Footer() {
   return (
@@ -11,8 +12,11 @@ export default function Footer() {
     fasionfactory@gmail.com
 </div>
 
-<div>
+<div className='flex items-center gap-4'>
     Follow Us:
+
+  
+    <LogoInstagram size="24"  />
 </div>
 
 </div>
