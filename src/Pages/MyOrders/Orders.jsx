@@ -10,7 +10,7 @@ export default function Orders() {
 
         <div className='border p-2 flex gap-6'>
 
-          <img className='h-28 w-28 object-cover' src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" />
+          <img className='h-28 w-28 aspect-square object-cover' src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" />
 
 <div>
     <h1 className='text-xl font-light line-clamp-1'>5 sleeve Premium Quality T-Shirt 5 sleeve Premium Quality T-Shirt</h1>
@@ -22,11 +22,13 @@ export default function Orders() {
 
         <div className='border p-2 flex gap-6'>
 
-<img className='h-28 w-28 object-cover' src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" />
+<img className='h-28 w-28 aspect-square object-cover' src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" />
 
 <div>
 <h1 className='text-xl font-light line-clamp-1'>5 sleeve Premium Quality T-Shirt 5 sleeve Premium Quality T-Shirt</h1>
 <h1 className='text-xl font-semibold'>₹2990</h1>
+
+
 <h1>Qty:2</h1>
 <h1 className='text-green-700'>Expected : 02/12/2024</h1>
 </div>
